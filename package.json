@@ -1,0 +1,31 @@
+{
+  "name": "imooc",
+  "version": "1.0.0",
+  "description": "imooc",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:KathyHas3Cats/imooc.git"
+  },
+  "keywords": [
+    "imooc"
+  ],
+  "author": "iYouga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KathyHas3Cats/imooc/issues"
+  },
+  "homepage": "https://github.com/KathyHas3Cats/imooc#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-uglify": "^3.0.0"
+  }
+}
