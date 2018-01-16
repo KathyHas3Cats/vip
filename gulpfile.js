@@ -17,7 +17,7 @@ var concat     = require('gulp-concat');
 gulp.task('sass',function(){
     return sass('./sass/*.scss',{
         sourcemap:false,
-        style:'expressed'
+        style:'expanded'
     }).pipe(gulp.dest('./css/'));
 });
 /* gulp.task('minifyJS',function(){

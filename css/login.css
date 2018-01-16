@@ -1,0 +1,282 @@
+@charset "UTF-8";
+body, div, p, ul, ol, li, dl, dt, dd, table, th, tr, td, caption, form, fieldset, legend, input, img, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 13.33vw;
+}
+
+body {
+  font-family: '-apple-system','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+img {
+  border: none;
+  display: block;
+}
+
+input {
+  outline: none;
+}
+
+/* -------------------------------header------------------------------- */
+.loginHeader {
+  padding: 0.3rem 0.4rem;
+}
+.loginHeader span {
+  display: block;
+  width: 0.32rem;
+  height: 0.32rem;
+  background: url("../img/login-icon-01.png") no-repeat center;
+}
+
+.loginTitle {
+  font-size: 0.46rem;
+  font-weight: 100;
+  line-height: 0.85rem;
+  text-align: center;
+  color: #10171d;
+}
+
+/* -------------------------------输入框------------------------------- */
+.loginForm {
+  padding: 0 0.82rem;
+}
+.loginForm .loginInput {
+  padding: 0.9rem 0 0.1rem;
+  border-bottom: 1px solid #e9e9e9;
+  position: relative;
+}
+.loginForm .loginInput .loginIconBtn {
+  display: block;
+  width: 0.5rem;
+  height: 0.5rem;
+  position: absolute;
+  right: 0.15rem;
+  bottom: 0.15rem;
+}
+.loginForm .loginInput .loginDelete {
+  background: url("../img/login-icon-04.png") no-repeat center;
+  background-size: cover;
+  display: none;
+}
+.loginForm .loginInput .loginShowPsw {
+  background: url("../img/login-icon-02.png") no-repeat center;
+  background-size: 0.3rem;
+}
+.loginForm .loginInput .loginHidePsw {
+  background: url("../img/login-icon-03.png") no-repeat center;
+  background-size: 0.3rem;
+}
+.loginForm input {
+  width: 100%;
+  display: block;
+  border: none;
+  font-size: 0.3rem;
+}
+.loginForm ::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #bfc0c4;
+}
+.loginForm :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #bfc0c4;
+}
+.loginForm ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #bfc0c4;
+}
+.loginForm :-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #bfc0c4;
+}
+.loginForm .submit {
+  height: 1.04rem;
+  color: #fff;
+  font-size: 0.3rem;
+  margin: 0.8rem 0;
+  letter-spacing: 0.05rem;
+  border-radius: 0.1rem;
+  background: #2b343b;
+}
+
+.loginAlink {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+
+.loginAlinkBottom {
+  width: 100%;
+  padding: 0 0.82rem;
+  box-sizing: border-box;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  align-items: center;
+  -webkit-align-items: center;
+  position: fixed;
+  bottom: 0.3rem;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+}
+.loginAlinkBottom .loginGamWayList {
+  width: 100%;
+  margin-bottom: 0.6rem;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+  display: none;
+}
+.loginAlinkBottom .loginGamWayList li a {
+  width: 0.55rem;
+  height: 0.55rem;
+}
+.loginAlinkBottom .loginGamWayList .loginByWeChat {
+  background: url("../img/login-icon-07.png") no-repeat center;
+  background-size: 0.55rem;
+}
+.loginAlinkBottom .loginGamWayList .loginByQQ {
+  background: url("../img/login-icon-06.png") no-repeat center;
+  background-size: 0.55rem;
+}
+.loginAlinkBottom .loginGamWayList .loginBySina {
+  background: url("../img/login-icon-05.png") no-repeat center;
+  background-size: 0.55rem;
+}
+.loginAlinkBottom .loginGamWayListShow {
+  display: flex;
+  display: -webkit-flex;
+}
+
+.loginAlinkBtn {
+  font-size: 0.3rem;
+  color: #45494c;
+  margin-bottom: 0.6rem;
+}
+
+/* --------------------------------找回密码界面------------------------------- */
+.loginGetBackPsw {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  background: #f3f5f7;
+  transition: right 0.5s;
+}
+.loginGetBackPsw .lgbpHeader {
+  display: flex;
+  display: -webkit-flex;
+  padding: 0 0.45rem;
+  line-height: 0.9rem;
+  font-size: 0.3rem;
+  font-weight: 300;
+  color: #0e1720;
+  background: #fff;
+}
+.loginGetBackPsw .lgbpHeader .loginBack {
+  width: 0.4rem;
+  height: 0.9rem;
+  margin-right: 0.2rem;
+  background: url("../img/login-icon-08.png") no-repeat center;
+}
+.loginGetBackPsw .getBackPswForm {
+  margin-top: 1rem;
+  position: relative;
+}
+.loginGetBackPsw .getBackPswForm ::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #b1b5ba;
+  font-size: 0.3rem;
+}
+.loginGetBackPsw .getBackPswForm :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #b1b5ba;
+  font-size: 0.3rem;
+}
+.loginGetBackPsw .getBackPswForm ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #b1b5ba;
+  font-size: 0.3rem;
+}
+.loginGetBackPsw .getBackPswForm :-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #b1b5ba;
+  font-size: 0.3rem;
+}
+.loginGetBackPsw .getBackPswForm .lgbpUsername {
+  display: block;
+  width: 100%;
+  padding: 0 0.4rem;
+  line-height: 1.04rem;
+  font-size: 0.32rem;
+  box-sizing: border-box;
+  border: none;
+}
+.loginGetBackPsw .getBackPswForm .loginDelete {
+  display: block;
+  width: 0.6rem;
+  height: 0.6rem;
+  position: absolute;
+  right: 0.15rem;
+  bottom: 2.44rem;
+  background: url("../img/login-icon-04.png") no-repeat center;
+  background-size: cover;
+  display: none;
+}
+.loginGetBackPsw .getBackPswForm .lgbpSubmit {
+  display: block;
+  border: none;
+  width: 5.45rem;
+  height: 1rem;
+  margin: 1.25rem auto;
+  background: #14b4ff;
+  color: #fff;
+  font-size: 0.32rem;
+}
+
+.loginGetBackPswSlide {
+  right: 0;
+}
+
+/* ---------------------------------弹出提示信息---------------------------- */
+.info {
+  display: inline-block;
+  padding: 0 0.4rem;
+  line-height: 0.8rem;
+  text-align: center;
+  font-size: 0.3rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 0.1rem;
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  z-index: 5;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.infoSlide {
+  top: 30%;
+}
+
+input[type=button], input[type=submit], input[type=file], button {
+  cursor: pointer;
+  -webkit-appearance: none;
+}

@@ -1,0 +1,553 @@
+@charset "UTF-8";
+body, div, p, ul, ol, li, dl, dt, dd, table, th, tr, td, caption, form, fieldset, legend, input, img, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 13.33vw;
+}
+
+body {
+  font-family: '-apple-system','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+img {
+  border: none;
+  display: block;
+}
+
+input {
+  outline: none;
+}
+
+/* ----------------------------搜索界面----------------------------- */
+.indexSearch {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  transition: left 0.5s;
+}
+.indexSearch .indexSearchHead {
+  height: 1rem;
+  box-shadow: 0 0.06rem 0.05rem #eee;
+  padding-left: 0.5rem;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+}
+.indexSearch .indexSearchHead .indexSearchHeadeReturn {
+  width: 0.3rem;
+  height: 0.3rem;
+  background: url("../img/login-icon-08.png") no-repeat center;
+  background-size: cover;
+}
+.indexSearch .indexSearchHead .indexSearchForm {
+  flex: 1;
+  -webkit-flex: 1;
+  display: flex;
+  display: -webkit-flex;
+}
+.indexSearch .indexSearchHead .indexSearchForm ::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #b4b8bc;
+}
+.indexSearch .indexSearchHead .indexSearchForm :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #b4b8bc;
+}
+.indexSearch .indexSearchHead .indexSearchForm ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #b4b8bc;
+}
+.indexSearch .indexSearchHead .indexSearchForm :-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #b4b8bc;
+}
+.indexSearch .indexSearchHead .indexSearchForm .indexSearchInput {
+  display: block;
+  border: none;
+  flex: 1;
+  -webkit-flex: 1;
+  font-size: 0.3rem;
+  text-indent: 0.5rem;
+}
+.indexSearch .indexSearchHead .indexSearchForm .indexSearchSub {
+  width: 0.5rem;
+  height: 0.5rem;
+  border: none;
+  background: url("../img/index-search.png") no-repeat center;
+  background-size: 0.35rem;
+  text-indent: -10rem;
+  margin-right: 0.3rem;
+}
+.indexSearch .indexSearchHistory {
+  padding: 0 0.33rem;
+}
+.indexSearch .indexSearchHistory .indexSearchHistoryHead {
+  height: 1rem;
+  margin-bottom: 0.05rem;
+  font-size: 0.28rem;
+  color: #84898e;
+  border-bottom: 1px solid #e0e3e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.indexSearch .indexSearchHistory .indexSearchHistoryHead .clearA {
+  color: #16b4ff;
+}
+.indexSearch .indexSearchHistory .indexSearchHistoryList {
+  padding: 0.1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.indexSearch .indexSearchHistory .indexSearchHistoryList li {
+  padding: 0.2rem;
+  font-size: 0.24rem;
+  color: #333;
+  background: #f3f5f7;
+  border-radius: 0.05rem;
+  margin-top: 0.4rem;
+  margin-right: 0.4rem;
+}
+
+.indexSearchSlide {
+  left: 0;
+}
+
+/* ------------------------indexCarousel---------------------------- */
+.indexCarousel {
+  width: 100%;
+  height: 2.6rem;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+.indexCarousel .indexCarouselOut {
+  padding: 0.2rem 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  display: -webkit-flex;
+}
+.indexCarousel .indexCarouselOut .indexCarouselUnit {
+  margin-right: 0.2rem;
+}
+.indexCarousel .indexCarouselOut .indexCarouselUnit .indexCarouselImg {
+  width: 6.75rem;
+  height: 2.2rem;
+  border-radius: 0.1rem;
+}
+.indexCarousel .indexCarouselDot {
+  font-size: 0;
+  position: absolute;
+  bottom: 0.4rem;
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+}
+.indexCarousel .indexCarouselDot span {
+  display: inline-block;
+  width: 0.12rem;
+  height: 0.12rem;
+  margin: 0 0.06rem;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0.4;
+}
+.indexCarousel .indexCarouselDot .indexCarouselDotActive {
+  opacity: 1;
+}
+
+/* ------------------------实战推荐部分---------------------------- */
+.indexRecommendPart {
+  width: 100%;
+  padding: 0 0.4rem;
+  box-sizing: border-box;
+}
+.indexRecommendPart:nth-of-type(2n) {
+  background: #f3f5f7;
+}
+.indexRecommendPart:nth-of-type(2n + 1) {
+  background: #fff;
+}
+.indexRecommendPart .indexRecommendHead {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  align-items: center;
+  -webkit-align-items: center;
+}
+.indexRecommendPart .indexRecommendHead .indexRecommendTitle {
+  font-size: 0.32rem;
+  text-indent: 0.5rem;
+  margin: 0.6rem 0;
+  background: url("../img/indexRecommend-icon-01.png") left center no-repeat;
+  background-size: 0.3rem 0.34rem;
+}
+.indexRecommendPart .indexRecommendHead .irHotTopic {
+  background: url("../img/indexRecommend-icon-07.png") left center no-repeat;
+  background-size: 0.34rem;
+}
+.indexRecommendPart .indexRecommendHead .irHotNote {
+  background: url("../img/indexRecommend-icon-08.png") left center no-repeat;
+  background-size: 0.34rem;
+}
+.indexRecommendPart .indexRecommendHead .indexRecommendMore {
+  font-size: 0.24rem;
+  color: #71777d;
+  padding-right: 0.3rem;
+  background: url("../img/indexRecommend-icon-04.png") no-repeat right center;
+  background-size: 0.2rem;
+  max-width: 4rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.indexRecommendPart .indexRecommendHead .indexRecommendMore .irSpecialSubject {
+  display: inline-block;
+  color: #f01414;
+  border: 0.02rem solid #f01414;
+  border-radius: 0.06rem;
+  padding: 0.06rem;
+  margin-right: 0.1rem;
+  line-height: 1;
+}
+.indexRecommendPart .irCourseRecommend {
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+}
+.indexRecommendPart .irCourseRecommend .irCourseRecommendUnit {
+  width: 3.2rem;
+  font-size: 0.24rem;
+  padding: 0.3rem;
+  margin-bottom: 0.28rem;
+  border-radius: 0.1rem;
+  box-sizing: border-box;
+}
+.indexRecommendPart .irCourseRecommend .irCourseRecommendUnit a {
+  color: #fff;
+}
+.indexRecommendPart .irCourseRecommend .irCourseRecommendUnit .irCourseName {
+  font-size: 0.32rem;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.indexRecommendPart .irCourseRecommend .irCourseRecommendUnit .irCoursePrise {
+  display: inline-block;
+  margin-top: 0.2rem;
+}
+.indexRecommendPart .irCourseRecommend .irCourseRecommendUnit .icon-huiyuan {
+  margin-left: 0.12rem;
+  margin-right: 0.05rem;
+  font-size: 0.2rem;
+}
+.indexRecommendPart .irCourseRecommend .irCourseRecommendUnitL {
+  background: #0070bb url("../img/indexRecommend-07.jpg") no-repeat 1.8rem 1.3rem;
+  background-size: 1.6rem;
+  box-shadow: 0 0.04rem 0.1rem #0070bb;
+}
+.indexRecommendPart .irCourseRecommend .irCourseRecommendUnitR {
+  background: #00c2d1 url("../img/indexRecommend-08.jpg") no-repeat 1.8rem 1.3rem;
+  background-size: 1.6rem;
+  box-shadow: 0 0.04rem 0.1rem #00c2d1;
+}
+.indexRecommendPart .irCourseList {
+  width: 100%;
+  margin-top: 0.44rem;
+  padding-bottom: 0.5rem;
+}
+.indexRecommendPart .irCourseList .irCourseListUnit {
+  margin-bottom: 0.5rem;
+}
+.indexRecommendPart .irCourseList .irCourseListUnit a {
+  display: flex;
+  display: -webkit-flex;
+  color: #2b333b;
+}
+.indexRecommendPart .irCourseList .irCourseListUnit .irCourseImg {
+  width: 2.16rem;
+  height: 1.44rem;
+  margin-right: 0.36rem;
+  border-radius: 0.06rem;
+}
+.indexRecommendPart .irCourseList .irCourseListUnit .irCourseInfo {
+  width: 3.8rem;
+}
+.indexRecommendPart .irCourseList .irCourseListUnit .irCourseInfo .irCourseInfoTitle {
+  font-size: 0.32rem;
+}
+.indexRecommendPart .irCourseList .irCourseListUnit .irCourseInfo .irCourseLevel {
+  font-size: 0.24rem;
+  color: #71777d;
+  margin: 0.2rem 0;
+}
+.indexRecommendPart .irCourseList .irCourseListUnit .irCourseInfo .irCoursePrise {
+  display: block;
+  font-size: 0.24rem;
+}
+
+/* ------------------------新上好课部分---------------------------- */
+.irNewCourse .indexRecommendHead .indexRecommendTitle {
+  background: url("../img/indexRecommend-icon-02.png") left center no-repeat;
+  background-size: 0.34rem;
+}
+.irNewCourse .indexRecommendHead .irNewPeople {
+  background: url("../img/indexRecommend-icon-05.png") left center no-repeat;
+  background-size: 0.34rem;
+}
+.irNewCourse .indexRecommendHead .irSkillUp {
+  background: url("../img/indexRecommend-icon-06.png") left center no-repeat;
+  background-size: 0.34rem;
+}
+.irNewCourse .indexRecommendHead .irFrontSkill {
+  background: url("../img/indexRecommend-icon-01.png") left center no-repeat;
+  background-size: 0.34rem;
+}
+.irNewCourse .indexRecommendHead .indexRecommendMore {
+  padding-right: 0.2rem;
+}
+.irNewCourse .indexRecommendHead .irHot {
+  color: #ffa01e;
+  padding-right: 0.34rem;
+  background: url("../img/indexRecommend-icon-03.png") no-repeat right center;
+  background-size: 0.24rem;
+}
+.irNewCourse .irCourseRecommend .irCourseRecommendUnitL {
+  background: #ff4545 url("../img/indexRecommend-12.jpg") no-repeat 1.8rem 1.3rem;
+  background-size: 1.6rem;
+  box-shadow: 0 0.04rem 0.1rem #ff4545;
+}
+.irNewCourse .irCourseRecommend .irCourseRecommendUnitR {
+  background: #9dcc29 url("../img/indexRecommend-13.jpg") no-repeat 1.8rem 1.3rem;
+  background-size: 1.6rem;
+  box-shadow: 0 0.04rem 0.1rem #9dcc29;
+}
+.irNewCourse .irCourseListSlide {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.irNewCourse .irCourseListSlide .irCourseListOut {
+  display: flex;
+  display: -webkit-flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.irNewCourse .irCourseListSlide .irCourseListOut .irCourseList {
+  flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+}
+.irNewCourse .irCourseListSlide .irCourseListOut .irCourseList .irCourseListUnit {
+  margin-right: 0.4rem;
+}
+.irNewCourse .irCourseListSlide .irSlideDot {
+  position: absolute;
+  bottom: 0.3rem;
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+}
+.irNewCourse .irCourseListSlide .irSlideDot span {
+  float: left;
+  width: 0.16rem;
+  height: 0.16rem;
+  border-radius: 0.16rem;
+  margin: 0 0.1rem;
+  background: #D9DDE1;
+}
+.irNewCourse .irCourseListSlide .irSlideDot .irSlideDotActive {
+  width: 0.64rem;
+  background: #B7BBBF;
+}
+
+/* ------------------------中间活动广告部分------------------------ */
+.irActivityAd {
+  border-radius: 0.06rem;
+  background: #f3f5f7;
+  padding: 0.5rem 0;
+}
+.irActivityAd img {
+  width: 6.34rem;
+  margin: 0 auto;
+  border: 0.08rem solid #fff;
+  border-radius: 0.06rem;
+}
+
+/* --------------------热门话题、热门手记部分---------------------- */
+.irHotTopicColOne {
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid #d9dde1;
+}
+.irHotTopicColOne a {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+}
+.irHotTopicColOne a p {
+  width: 4.4rem;
+  color: #20cc85;
+  font-size: 0.28rem;
+}
+.irHotTopicColOne a p span {
+  display: block;
+  color: #b7bbbf;
+  font-size: 0.2rem;
+  line-height: 2;
+}
+.irHotTopicColOne a img {
+  width: 1.28rem;
+  height: 1.28rem;
+  border-radius: 0.06rem;
+}
+
+.irHotTopicColTwo {
+  padding: 0.4rem 0 0.8rem;
+  display: flex;
+  display: -webkit-flex;
+  border-bottom: 0.04rem dashed #d9dde1;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+}
+.irHotTopicColTwo a {
+  flex: 1;
+}
+.irHotTopicColTwo a p {
+  color: #2b333b;
+  font-size: 0.28rem;
+}
+.irHotTopicColTwo a p span {
+  display: block;
+  color: #b7bbbf;
+  font-size: 0.2rem;
+  line-height: 2;
+}
+.irHotTopicColTwo i {
+  display: block;
+  width: 0.04rem;
+  margin: 0 0.4rem;
+  background: #d9dde1;
+}
+
+.irHotNoteColThree {
+  display: flex;
+  display: -webkit-flex;
+  padding-bottom: 0.6rem;
+}
+.irHotNoteColThree a p {
+  color: #2b333b;
+  font-size: 0.28rem;
+}
+.irHotNoteColThree a p span {
+  display: block;
+  color: #b7bbbf;
+  font-size: 0.2rem;
+  line-height: 2;
+}
+.irHotNoteColThree a img {
+  width: 1.28rem;
+  height: 1.28rem;
+  margin-top: 0.6rem;
+  border-radius: 0.06rem;
+}
+.irHotNoteColThree .irHotNoteColLeft {
+  flex: 1;
+  -webkit-flex: 1;
+  padding-right: 0.4rem;
+  border-right: 2px solid #d9dde1;
+}
+.irHotNoteColThree .irHotNoteColRight {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  flex: 1;
+  -webkit-flex: 1;
+}
+.irHotNoteColThree .irHotNoteColRight a {
+  flex: 1;
+  padding-left: 0.4rem;
+}
+.irHotNoteColThree .irHotNoteColRight i {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #d9dde1;
+}
+
+/* ------------------------精英讲师部分------------------------ */
+.irTeacher .indexRecommendHead .indexRecommendTitle {
+  background: url("../img/indexRecommend-icon-03.png") left center no-repeat;
+  background-size: 0.3rem 0.34rem;
+  margin: 0.4rem auto;
+}
+.irTeacher .indexRecommendHead .irYourLike {
+  background: url("../img/indexRecommend-icon-09.png") left center no-repeat;
+  background-size: 0.34rem;
+}
+.irTeacher .irCourseListSlide .irCourseListOut .irCourseList {
+  width: 100%;
+  margin-top: 0;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+  flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+}
+.irTeacher .irCourseListSlide .irCourseListOut .irCourseList .irCourseListUnit {
+  margin-right: 0;
+  text-align: center;
+}
+.irTeacher .irCourseListSlide .irCourseListOut .irCourseList .irCourseListUnit a {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  align-items: center;
+  -webkit-align-items: center;
+}
+.irTeacher .irCourseListSlide .irCourseListOut .irCourseList .irCourseListUnit a img {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 0;
+  border-radius: 50%;
+  border: 0.1rem solid #fff;
+}
+.irTeacher .irCourseListSlide .irCourseListOut .irCourseList .irCourseListUnit a p {
+  color: #2b333b;
+  font-size: 0.28rem;
+}
+.irTeacher .irCourseListSlide .irCourseListOut .irCourseList .irCourseListUnit a p span {
+  display: block;
+  color: #b7bbbf;
+  font-size: 0.2rem;
+  line-height: 2;
+}
+.irTeacher .irCourseList {
+  margin-top: 0;
+}

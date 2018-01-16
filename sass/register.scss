@@ -1,0 +1,26 @@
+/* 获取短信验证码 */
+.loginForm{
+    .verifyCode{
+        .getVerifyCode{
+            width:2rem;
+            height:0.3rem;
+            font-size:0.22rem;
+            color:#29bbff;
+            letter-spacing: 0.05rem;
+        }
+    }
+}
+
+/* -------------------------------邮箱注册界面-------------------------------- */
+.regByEmail{
+    width:100%;
+    height:100%;
+    position: fixed;
+    bottom:-100%;
+    left:0;
+    background:#fff; 
+    transition:bottom 0.5s;
+}
+.regByEmailSlide{
+    bottom:0;
+}

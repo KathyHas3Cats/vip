@@ -1,0 +1,457 @@
+.paidCHeader {
+  position: relative;
+  height: 2.1rem;
+  overflow: hidden;
+  display: block;
+  width: 100%; }
+  .paidCHeader video {
+    display: block;
+    height: 2.1rem; }
+    .paidCHeader video source {
+      display: block; }
+  .paidCHeader .paidCicon {
+    position: absolute;
+    top: 0.25rem;
+    left: 0;
+    height: 0.16rem;
+    width: 100%; }
+    .paidCHeader .paidCicon i {
+      line-height: 0.16rem;
+      font-size: 0.16rem;
+      color: white;
+      float: left; }
+    .paidCHeader .paidCicon i:nth-child(1) {
+      margin-left: 0.25rem; }
+    .paidCHeader .paidCicon i:nth-child(2) {
+      margin-left: 2.36rem; }
+    .paidCHeader .paidCicon i:nth-child(3) {
+      margin-left: 0.32rem; }
+  .paidCHeader .paidCtext {
+    position: absolute;
+    color: white;
+    font-size: 0.16rem;
+    line-height: 0.16rem;
+    left: 0;
+    top: 0.7rem;
+    height: 0.16rem;
+    text-align: center;
+    width: 100%; }
+  .paidCHeader .paidCstop {
+    width: 0.8rem;
+    height: 0.25rem;
+    border: 1px solid #aaa;
+    border-radius: 0.1rem;
+    font-size: 0.12rem;
+    position: absolute;
+    background: #253b4e;
+    left: 1.54rem;
+    top: 1.45rem;
+    text-align: center;
+    text-indent: 0.05rem;
+    line-height: 0.25rem;
+    color: #aaa; }
+    .paidCHeader .paidCstop i {
+      display: block;
+      width: 0.35rem;
+      height: 0.35rem;
+      border-radius: 50%;
+      background: white;
+      font-size: 0.16rem;
+      position: absolute;
+      left: -0.15rem;
+      top: -0.05rem;
+      text-align: center;
+      line-height: 0.35rem;
+      color: black;
+      text-indent: 0; }
+
+.paidCHeaderMenu {
+  height: 0.46rem;
+  background: white;
+  box-shadow: 0 2px 2px #ddd;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+  position: relative;
+  z-index: 1; }
+  .paidCHeaderMenu li a {
+    font-size: 16px;
+    color: #71767c;
+    line-height: 0.46rem;
+    display: block; }
+    .paidCHeaderMenu li a i {
+      font-size: 20px;
+      font-weight: 600;
+      color: black; }
+  .paidCHeaderMenu span {
+    width: 0.16rem;
+    height: 0.02rem;
+    background: #eb0000;
+    display: block;
+    position: absolute;
+    left: 0.4rem;
+    bottom: 0.07rem;
+    border-radius: 0.01rem; }
+
+.paidCHeaderMasg {
+  width: 3.75rem;
+  overflow-x: scroll;
+  flex: 1;
+  display: flex;
+  flex-direction: column; }
+  .paidCHeaderMasg .paidCHeaderMasgMoveBox {
+    flex: 1;
+    left: 0;
+    top: 0;
+    position: relative;
+    width: 15rem;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    justify-content: space-around; }
+    .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne {
+      height: 100%;
+      display: flex;
+      flex-direction: column; }
+      .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox {
+        flex: 1;
+        overflow-y: auto; }
+        .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentOne {
+          width: 3.25rem;
+          height: 1.0rem;
+          background: white;
+          margin: 0 auto;
+          padding-bottom: 0.18rem;
+          margin-top: 0.15rem;
+          border-radius: 0.05rem;
+          box-shadow: 0 0 10px 2px #ddd; }
+          .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentOne .paidCcontentFirstWord {
+            font-size: 0.12rem;
+            color: #777;
+            width: 2.70rem;
+            margin: 0 auto;
+            padding: 0.23rem 0; }
+          .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentOne .paidCcontentThreeExplain {
+            border-top: 1px solid #ddd;
+            width: 3.16rem;
+            margin: 0 auto;
+            font-size: 0.10rem;
+            color: #777;
+            display: flex;
+            justify-content: space-around;
+            line-height: 0.35rem; }
+            .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentOne .paidCcontentThreeExplain span {
+              flex: 1;
+              text-align: center;
+              border-right: 1px solid #ddd; }
+              .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentOne .paidCcontentThreeExplain span i {
+                font-style: normal; }
+            .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentOne .paidCcontentThreeExplain span:last-child {
+              flex: 1;
+              text-align: center;
+              border-right: none; }
+        .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentTwo {
+          background: #fff;
+          height: 0.54rem;
+          width: 3.25rem;
+          margin: 0.15rem auto 0;
+          border-radius: 0.05rem;
+          box-shadow: 0 0 10px 2px #ddd;
+          font-size: 0.12rem;
+          color: #666;
+          line-height: 0.54rem;
+          display: flex;
+          -webkit-display: flex;
+          justify-content: space-around;
+          -webkit-justify-content: space-around; }
+          .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentTwo a {
+            float: left;
+            border: 1px solid #678910;
+            line-height: 0.16rem;
+            height: 0.16rem;
+            padding: 0 0.05rem;
+            border-radius: 0.03rem;
+            color: #678910;
+            margin-top: 0.18rem;
+            margin-right: 0.03rem;
+            margin-left: 0.2rem; }
+          .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentTwo span {
+            color: #999; }
+            .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentTwo span i {
+              font-size: 0.14rem;
+              color: #666;
+              margin-left: 0.02rem; }
+        .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentThree {
+          width: 2.85rem;
+          background: #fff;
+          border-radius: 0.05rem;
+          box-shadow: 0 0 10px 2px #ddd;
+          margin: 0.15rem auto 0;
+          margin-bottom: 0.15rem;
+          padding: 0 0.2rem;
+          overflow: hidden; }
+          .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentThree .paidCcontentThreeA {
+            font-size: 0.14rem;
+            color: black;
+            line-height: 0.14rem;
+            margin: 0.28rem 0 0.12rem; }
+            .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentThree .paidCcontentThreeA span {
+              margin-left: 0.1rem;
+              color: #eb0000;
+              font-size: 0.16rem; }
+          .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentThree .paidCcontentThreeB {
+            font-size: 0.12rem;
+            line-height: 0.24rem;
+            overflow: hidden;
+            display: flex;
+            -webkit-display: flex;
+            justify-content: space-around;
+            -webkit-justify-content: space-around; }
+            .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentThree .paidCcontentThreeB i {
+              float: left;
+              border: 1px solid #ddd;
+              border-radius: 0.05rem;
+              color: #666;
+              font-style: normal;
+              padding: 0 0 0 0.05rem;
+              margin-right: 0.09rem;
+              flex: 1; }
+              .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentThree .paidCcontentThreeB i span {
+                color: black;
+                padding: 0; }
+          .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentThree .paidCcontentThreeC li {
+            background: url("../img/paiC-02.png") left 0.14rem no-repeat;
+            margin-top: 0.06rem; }
+            .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentThree .paidCcontentThreeC li p {
+              font-size: 0.12rem;
+              color: #666;
+              text-indent: 0.30rem;
+              line-height: 0.40rem; }
+              .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentThree .paidCcontentThreeC li p i {
+                color: yellowgreen; }
+            .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentThree .paidCcontentThreeC li span {
+              display: block;
+              padding-left: 0.30rem;
+              font-size: 0.12rem;
+              color: #666; }
+          .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentThree .paidCcontentThreeC li:nth-child(2) {
+            background: url("../img/paiC-03.png") left 0.14rem no-repeat;
+            margin-bottom: 0.18rem; }
+          .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentThree .paidCcontentThreeC .paidCcontentThreeCMore {
+            display: block;
+            width: 1.77rem;
+            height: 0.33rem;
+            border: 1px solid #ddd;
+            font-size: 0.14rem;
+            color: #666;
+            text-align: center;
+            line-height: 0.33rem;
+            margin: 0 auto;
+            border-radius: 0.05rem;
+            font-weight: 100;
+            margin-bottom: 0.16rem; }
+          .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentThree .paidCcontentThreeD {
+            border-top: 1px solid #ddd;
+            overflow: hidden;
+            padding-bottom: 0.25rem; }
+            .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentThree .paidCcontentThreeD p {
+              font-size: 0.14rem;
+              color: #000;
+              line-height: 0.48rem; }
+            .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentThree .paidCcontentThreeD span {
+              text-indent: 0.1rem;
+              color: #666;
+              font-size: 0.12rem;
+              display: block;
+              width: 2.35rem;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              float: left; }
+            .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentThree .paidCcontentThreeD i {
+              color: #666;
+              font-size: 0.12rem;
+              float: right; }
+        .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgOne .paidCHeaderMasgOneFlexBox .paidCcontentFour img {
+          width: 3.75rem;
+          display: block; }
+    .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgTwo {
+      width: 3.75rem;
+      display: flex;
+      flex-direction: column;
+      height: 100%; }
+      .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgTwo .paidCHeaderMasgTwoFlexBox {
+        flex: 1;
+        overflow-y: scroll; }
+        .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgTwo .paidCHeaderMasgTwoFlexBox ul {
+          width: 3.75rem;
+          height: auto;
+          background: #fff; }
+          .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgTwo .paidCHeaderMasgTwoFlexBox ul li {
+            padding: 0 0.2rem;
+            font-size: 0.16rem;
+            font-weight: 300;
+            color: #000;
+            line-height: 0.45rem;
+            margin-top: 0.15rem; }
+            .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgTwo .paidCHeaderMasgTwoFlexBox ul li p {
+              font-size: 0.14rem;
+              margin-left: 0.32rem;
+              line-height: 0.45rem;
+              border-bottom: 1px dashed #ddd; }
+    .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgThree {
+      width: 3.75rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column; }
+      .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgThree .paidCheaderMasgThreeFlexBox {
+        overflow-y: scroll;
+        flex: 1; }
+        .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgThree .paidCheaderMasgThreeFlexBox ul {
+          background: #fff; }
+          .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgThree .paidCheaderMasgThreeFlexBox ul .paid3Title {
+            font-size: 0.2rem;
+            color: black;
+            line-height: 0.6rem;
+            text-indent: 0.2rem; }
+          .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgThree .paidCheaderMasgThreeFlexBox ul .paid3Masg {
+            margin: 0.15rem 0;
+            overflow: hidden;
+            margin-left: 0.2rem; }
+            .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgThree .paidCheaderMasgThreeFlexBox ul .paid3Masg a {
+              float: left;
+              margin-right: 0.08rem;
+              border: 1px solid #aaa;
+              color: #333;
+              border-radius: 0.03rem;
+              font-size: 0.14rem; }
+          .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgThree .paidCheaderMasgThreeFlexBox ul li {
+            margin-top: 0.25rem;
+            border-bottom: 1px solid #ddd;
+            padding: 0.1rem 0.2rem; }
+            .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgThree .paidCheaderMasgThreeFlexBox ul li .selfMasg {
+              overflow: hidden; }
+              .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgThree .paidCheaderMasgThreeFlexBox ul li .selfMasg img {
+                border-radius: 50%;
+                width: 0.2rem;
+                height: 0.2rem;
+                float: left; }
+              .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgThree .paidCheaderMasgThreeFlexBox ul li .selfMasg a {
+                font-size: 0.14rem;
+                color: #000;
+                float: left;
+                margin-left: 0.03rem; }
+              .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgThree .paidCheaderMasgThreeFlexBox ul li .selfMasg p {
+                float: left;
+                color: #000;
+                margin-left: 0.03rem;
+                overflow: hidden; }
+                .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgThree .paidCheaderMasgThreeFlexBox ul li .selfMasg p i {
+                  font-size: 0.14rem;
+                  float: left;
+                  color: yellowgreen; }
+              .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgThree .paidCheaderMasgThreeFlexBox ul li .selfMasg span {
+                float: right;
+                font-size: 0.1rem;
+                color: #555; }
+            .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgThree .paidCheaderMasgThreeFlexBox ul li .selfComment {
+              margin-top: 0.15rem;
+              font-size: 0.12rem;
+              color: #666;
+              text-indent: 0.28rem; }
+            .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgThree .paidCheaderMasgThreeFlexBox ul li .teacherSay {
+              background: #eee;
+              font-size: 0.12rem;
+              margin-top: 0.15rem;
+              color: #555; }
+              .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgThree .paidCheaderMasgThreeFlexBox ul li .teacherSay a {
+                color: orange;
+                font-size: 0.12rem;
+                border: 1px solid orangered;
+                float: left;
+                border-radius: 0.03rem; }
+    .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgFour {
+      width: 3.75rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column; }
+      .paidCHeaderMasg .paidCHeaderMasgMoveBox .paidCHeaderMasgFour .paidCheaderMasgFourFlexBox {
+        background: #b4e;
+        flex: 1;
+        overflow-y: scroll; }
+
+.paidCOn {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column; }
+
+.paidCFooter {
+  display: flex;
+  -webkit-display: flex;
+  border: 1px solid #ddd;
+  height: 0.52rem;
+  padding-left: 0.2rem;
+  background: #fff;
+  overflow: hidden; }
+  .paidCFooter .paidCFooterMoneyNumber {
+    width: 1.88rem;
+    float: left; }
+    .paidCFooter .paidCFooterMoneyNumber h2 {
+      color: red;
+      font-size: 0.16rem;
+      line-height: 0.26rem;
+      padding-top: 0.04rem; }
+    .paidCFooter .paidCFooterMoneyNumber p {
+      text-indent: 0.15rem;
+      font-size: 0.10rem;
+      color: #555;
+      background: url("../img/paiC-04.png") left center no-repeat; }
+  .paidCFooter .paidCFooterCartIcon {
+    height: 100%;
+    font-size: 0.16rem;
+    width: 0.6rem;
+    color: white;
+    background: yellowgreen;
+    float: left; }
+    .paidCFooter .paidCFooterCartIcon i {
+      display: block;
+      line-height: 0.52rem;
+      text-align: center; }
+  .paidCFooter .paidCFooterBuyFast {
+    float: left;
+    flex: 1;
+    -webkit-flex: 1;
+    color: white;
+    background: red;
+    font-size: 0.14rem;
+    text-align: center;
+    line-height: 0.52rem; }
+
+.fog {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1; }
+
+.paidCshare {
+  position: fixed;
+  bottom: -2rem;
+  left: 0;
+  z-index: 2;
+  overflow: hidden;
+  height: 2rem;
+  padding-left: 0.16rem;
+  background: #fff;
+  box-shadow: 0 0 2px 2px #ddd; }
+  .paidCshare li {
+    float: left; }
+    .paidCshare li img {
+      width: 0.7rem;
+      display: block;
+      margin: 0.15rem 0.22rem; }

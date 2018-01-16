@@ -1,0 +1,94 @@
+.cartHeader {
+  height: 0.52rem;
+  box-shadow: 0 2px 2px #ddd;
+  background: white;
+  font-size: 0.16rem;
+  color: #000;
+  line-height: 0.52rem; }
+  .cartHeader i {
+    margin: 0 0.2rem; }
+
+.cartContent {
+  flex: 1;
+  -webkit-flex: 1;
+  overflow-y: auto;
+  margin-top: 0.05rem; }
+  .cartContent .cartContentGoodsList {
+    background: white; }
+    .cartContent .cartContentGoodsList li {
+      overflow: hidden;
+      display: flex;
+      -webkit-display: flex;
+      align-items: center;
+      -webkit-align-items: center;
+      padding-top: 0.1rem;
+      padding-bottom: 0.2rem; }
+      /* .cartContent .cartContentGoodsList li .cartContentGoodsListLiOne { */
+      .checkbox{
+        outline: none;
+        -webkit-appearance:none;
+        width: 0.2rem;
+        height: 0.2rem;
+        border-radius: 50%;
+        border: 1px solid #ccc;
+        margin: 0 0.14rem 0 0.16rem; }
+        .checked{
+          background:url(../img/cart-checkbox-bg.png) no-repeat center left;
+          background-size:0.2rem 0.2rem;
+          border: 1px solid transparent;
+        }
+      .cartContent .cartContentGoodsList li .cartContentGoodsListLiTwo {
+        border-radius: 0.05rem;
+        width: 1.12rem;
+        height: 0.74rem;
+        overflow: hidden; }
+        .cartContent .cartContentGoodsList li .cartContentGoodsListLiTwo img {
+          width: 1.12rem;
+          height: 0.74rem;
+          display: block; }
+      .cartContent .cartContentGoodsList li .cartContentGoodsListLiThree {
+        color: #000;
+        margin: 0 0.3rem 0 0.18rem;
+        flex: 1;
+        -webkit-flex: 1; }
+        .cartContent .cartContentGoodsList li .cartContentGoodsListLiThree p {
+          font-size: 0.12rem;
+          height: 0.56rem; }
+        .cartContent .cartContentGoodsList li .cartContentGoodsListLiThree span {
+          display: block;
+          font-size: 0.12rem;
+          color: #678910; }
+
+.cartFooter {
+  height: 0.5rem;
+  border-top: 1px solid #ddd;
+  background: white;
+  display: flex;
+  -webkit-display: flex; }
+  .cartFooter .cartFooterOne {
+    font-size: 0.14rem;
+    color: #555;
+    line-height: 0.5rem;
+    display: flex;
+    -webkit-display: flex;
+    align-items: center;
+    -webkit-align-items: center; }
+    .cartFooter .cartFooterOne .cartFooterOneCircle {
+      width: 0.2rem;
+      height: 0.2rem;
+      border-radius: 50%;
+      border: 1px solid #ccc;
+      margin: 0 0.09rem 0 0.16rem; }
+  .cartFooter .cartFooterTwo {
+    font-size: 0.14rem;
+    line-height: 0.5rem;
+    margin-left: 0.42rem;
+    width: 1.33rem; }
+  .cartFooter .cartFooterThree {
+    line-height: 0.5rem;
+    font-size: 0.14rem;
+    color: #fff;
+    background: red;
+    flex: 1;
+    text-align: center;
+    -webkit-flex: 1; }
