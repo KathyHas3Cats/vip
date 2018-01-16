@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width initial-scale=0.5, maximum-scale=0.5, minimum-scale=0.5">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>慕课网-程序员的梦工厂</title>
+<link rel="stylesheet" href="font/iconfont.css">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/index.css"/>
+<link rel="stylesheet" href="css/indexFreeCourse.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+<script src="https://cdn.bootcss.com/jquery/1.8.3/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+</head>
+<body>
+    <!-- -------------------------indexHeader----------------------------- -->
+    <ul class="commonHeader">
+        <li class="commonHeaderOne"><a href="javascript:;">推荐</a></li>
+        <li><a href="javascript:;">免费课程</a></li>
+        <li><a href="javascript:;">职业课程</a></li>
+        <li><a href="javascript:;">实战</a></li> 
+        <li><a href="javascript:;"><i class="iconfont icon-sousuo"></i></a></li>
+        <li><a href="javascript:;"><i class="iconfont icon-zuji"></i></a></li>
+        <!-- 红色滑动条 -->
+        <span></span>
+    </ul>
+
+    <!-- ----------------------------搜索界面----------------------------- -->
+    <div class="indexSearch">
+        <div class="indexSearchHead">
+            <!-- 返回按钮 -->
+            <a class="indexSearchHeadeReturn"></a>
+            <form action="javascript;:" method="get" name="search" class="indexSearchForm">
+                <!-- 搜索输入框 -->
+                <input type="text" class="indexSearchInput" placeholder="请输入搜索内容" autocomplete="off" autofocus/>
+                <!-- 搜索按钮 -->
+                <input type="submit" class="indexSearchSub"/>
+            </form>            
+        </div>
+        <!-- 搜索历史 -->
+        <div class="indexSearchHistory">
+            <div class="indexSearchHistoryHead">
+                搜索历史
+                <a href="javascript:;" class="clearA indexSearchClear">清除</a>
+            </div>
+            <ul class="indexSearchHistoryList">
+                <li>java</li>
+                <li>html</li>
+            </ul>
+        </div>
+        <!-- 搜索历史 -->
+        <div class="indexSearchHistory">
+            <div class="indexSearchHistoryHead">
+                热门搜索
+                <a href="javascript:;" class="clearA"></a>                
+            </div>
+            <ul class="indexSearchHistoryList">
+                <li>AngularJS</li>
+                <li>mysql</li>
+                <li>java</li>
+                <li>android</li>
+                <li>C</li>
+                <li>php</li>
+                <li>ajax</li>
+                <li>python</li>
+                <li>js</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ---------------------------圣杯布局content----------------------- -->
+    <div class="commonContent">  
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                     <!-- --------------------indexCarousel----------------------- -->
+                    <div class="indexCarousel">
+                        <!-- 轮播图图片 -->
+                        <ul class="indexCarouselOut">
+                            <li class="indexCarouselUnit">
+                                <a href="javascript:;"><img src="img/indexRecommend-01.jpg" class="indexCarouselImg"/></a>
+                            </li>
+                            <li class="indexCarouselUnit">
+                                <a href="javascript:;"><img src="img/indexRecommend-02.jpg" class="indexCarouselImg"/></a>
+                            </li>
+                            <li class="indexCarouselUnit">   
+                                <a href="javascript:;"><img src="img/indexRecommend-03.jpg" class="indexCarouselImg"/></a>
+                            </li>
+                            <li class="indexCarouselUnit">
+                                <a href="javascript:;"><img src="img/indexRecommend-04.jpg" class="indexCarouselImg"/></a>
+                            </li>
+                            <li class="indexCarouselUnit">
+                                <a href="javascript:;"><img src="img/indexRecommend-05.jpg" class="indexCarouselImg"/></a>
+                            </li>
+                            <li class="indexCarouselUnit">
+                                <a href="javascript:;"><img src="img/indexRecommend-06.jpg" class="indexCarouselImg"/></a>
+                            </li>
+                        </ul>
+                        <!-- 轮播图导航圆点 -->
+                        <div class="indexCarouselDot">
+                            <span class="indexCarouselDotActive"></span><span></span><span></span><span></span><span></span><span></span>
+                        </div>
+                    </div>
+                    
+                    <!-- ---------------------------实战推荐部分-------------------------- -->
+                    <div class="indexRecommendPart">
+                        <div class="indexRecommendHead">
+                            <h3 class="indexRecommendTitle">实战推荐</h3>
+                            <a href="indexFreeCourse.html" class="indexRecommendMore">更多</a>
+                        </div>
+                        <!-- 中间部分推荐课程 -->
+                        <div class="irCourseRecommend">
+                            <div class="irCourseRecommendUnit irCourseRecommendUnitL">
+                                <a href="javascript:;">
+                                    <h4 class="irCourseName">Python</h4>
+                                    <p class="irCourseDescribe">全网最热Python3入门+进阶 更快上手开发</p>
+                                    <span class="irCoursePrise">￥366.00</span>
+                                    <span class="irCourseUsers"><i class="iconfont icon-huiyuan"></i>2008</span>
+                                </a>
+                            </div>
+                            <div class="irCourseRecommendUnit irCourseRecommendUnitR">
+                                <a href="javascript:;">
+                                    <h4 class="irCourseName">React.JS</h4>
+                                    <p class="irCourseDescribe">Redux+React Router+Node.js全栈</p>
+                                    <span class="irCoursePrise">￥388.00</span>
+                                    <span class="irCourseUsers"><i class="iconfont icon-huiyuan"></i>638</span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- 推荐课程列表 -->
+                        <div class="irCourseList">
+                            <div class="irCourseListUnit">
+                                <a href="javascript:;">
+                                    <img src="img/indexRecommend-09.jpg" class="irCourseImg"/>
+                                    <div class="irCourseInfo">
+                                        <div class="irCourseInfoTitle">基于Storm构建实时热力分布项目实战</div>
+                                        <div class="irCourseLevel">中级 · 10人在学</div>
+                                        <span class="irCoursePrise">￥388.00</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="irCourseListUnit">
+                                <a href="javascript:;">
+                                    <img src="img/indexRecommend-10.jpg" class="irCourseImg"/>
+                                    <div class="irCourseInfo">
+                                        <div class="irCourseInfoTitle">Spring Boot企业微信点餐系统</div>
+                                        <div class="irCourseLevel">中级 · 1379人在学</div>
+                                        <span class="irCoursePrise">￥348.00</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="irCourseListUnit">
+                                <a href="javascript:;">
+                                    <img src="img/indexRecommend-11.jpg" class="irCourseImg"/>
+                                    <div class="irCourseInfo">
+                                        <div class="irCourseInfoTitle">Java秒杀系统方案优化 高性能高并发实战</div>
+                                        <div class="irCourseLevel">中级 · 134人在学</div>
+                                        <span class="irCoursePrise">￥288.00</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- ---------------------------新上好课部分-------------------------- -->
+                    <div class="indexRecommendPart irNewCourse">
+                        <div class="indexRecommendHead">
+                            <h3 class="indexRecommendTitle">新上好课</h3>
+                            <a href="indexFreeCourse.html" class="indexRecommendMore irHot">热门排行</a>
+                        </div>
+                        <!-- 中间部分推荐课程 -->
+                        <div class="irCourseRecommend">
+                            <div class="irCourseRecommendUnit irCourseRecommendUnitL">
+                                <a href="javascript:;">
+                                    <h4 class="irCourseName">Java</h4>
+                                    <p class="irCourseDescribe">Java大牛 带你从0到上线开发企业级电商项目</p>
+                                    <span class="irCoursePrise">￥348.00</span>
+                                    <span class="irCourseUsers"><i class="iconfont icon-huiyuan"></i>3367</span>
+                                </a>
+                            </div>
+                            <div class="irCourseRecommendUnit irCourseRecommendUnitR">
+                                <a href="javascript:;">
+                                    <h4 class="irCourseName">Android</h4>
+                                    <p class="irCourseDescribe">BAT大咖助力 全面升级Android面试</p>
+                                    <span class="irCoursePrise">￥288.00</span>
+                                    <span class="irCourseUsers"><i class="iconfont icon-huiyuan"></i>1991</span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- 推荐课程列表 -->
+                        <div class="irCourseListSlide">
+                            <div class="irCourseListOut">
+                                <div class="irCourseList">
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-14.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">基于Storm构建实时热力分布项目实战</div>
+                                                <div class="irCourseLevel">中级 · 10人在学</div>
+                                                <span class="irCoursePrise">￥388.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-15.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">Spring Boot企业微信点餐系统</div>
+                                                <div class="irCourseLevel">中级 · 1379人在学</div>
+                                                <span class="irCoursePrise">￥348.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-16.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">Java秒杀系统方案优化 高性能高并发实战</div>
+                                                <div class="irCourseLevel">中级 · 134人在学</div>
+                                                <span class="irCoursePrise">￥288.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="irCourseList">
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-17.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">基于Storm构建实时热力分布项目实战</div>
+                                                <div class="irCourseLevel">中级 · 10人在学</div>
+                                                <span class="irCoursePrise">￥388.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-18.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">Spring Boot企业微信点餐系统</div>
+                                                <div class="irCourseLevel">中级 · 1379人在学</div>
+                                                <span class="irCoursePrise">￥348.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-19.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">Java秒杀系统方案优化 高性能高并发实战</div>
+                                                <div class="irCourseLevel">中级 · 134人在学</div>
+                                                <span class="irCoursePrise">￥288.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="irSlideDot">
+                                <span class="irSlideDotActive"></span><span></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- ---------------------------新手入门部分-------------------------- -->
+                    <div class="indexRecommendPart irNewCourse">
+                        <div class="indexRecommendHead">
+                            <h3 class="indexRecommendTitle irNewPeople">新手入门</h3>
+                            <a href="indexFreeCourse.html" class="indexRecommendMore"><span class="irSpecialSubject">专题</span>学习路线规划齐全，就等你来学了</a>
+                        </div>
+                        <!-- 中间部分推荐课程 -->
+                        <div class="irCourseRecommend">
+                            <div class="irCourseRecommendUnit irCourseRecommendUnitL">
+                                <a href="javascript:;">
+                                    <h4 class="irCourseName">Java</h4>
+                                    <p class="irCourseDescribe">Java大牛 带你从0到上线开发企业级电商项目</p>
+                                    <span class="irCoursePrise">￥348.00</span>
+                                    <span class="irCourseUsers"><i class="iconfont icon-huiyuan"></i>3367</span>
+                                </a>
+                            </div>
+                            <div class="irCourseRecommendUnit irCourseRecommendUnitR">
+                                <a href="javascript:;">
+                                    <h4 class="irCourseName">Android</h4>
+                                    <p class="irCourseDescribe">BAT大咖助力 全面升级Android面试</p>
+                                    <span class="irCoursePrise">￥288.00</span>
+                                    <span class="irCourseUsers"><i class="iconfont icon-huiyuan"></i>1991</span>
+                                </a>
+                            </div>
+                            <div class="irCourseRecommendUnit irCourseRecommendUnitR">
+                                <a href="javascript:;">
+                                    <h4 class="irCourseName">Android</h4>
+                                    <p class="irCourseDescribe">BAT大咖助力 全面升级Android面试</p>
+                                    <span class="irCoursePrise">￥288.00</span>
+                                    <span class="irCourseUsers"><i class="iconfont icon-huiyuan"></i>1991</span>
+                                </a>
+                            </div>
+                            <div class="irCourseRecommendUnit irCourseRecommendUnitR">
+                                <a href="javascript:;">
+                                    <h4 class="irCourseName">Android</h4>
+                                    <p class="irCourseDescribe">BAT大咖助力 全面升级Android面试</p>
+                                    <span class="irCoursePrise">￥288.00</span>
+                                    <span class="irCourseUsers"><i class="iconfont icon-huiyuan"></i>1991</span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- 推荐课程列表 -->
+                        <div class="irCourseListSlide">
+                            <div class="irCourseListOut">                            
+                                <div class="irCourseList">
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-14.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">基于Storm构建实时热力分布项目实战</div>
+                                                <div class="irCourseLevel">中级 · 10人在学</div>
+                                                <span class="irCoursePrise">￥388.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-15.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">Spring Boot企业微信点餐系统</div>
+                                                <div class="irCourseLevel">中级 · 1379人在学</div>
+                                                <span class="irCoursePrise">￥348.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-16.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">Java秒杀系统方案优化 高性能高并发实战</div>
+                                                <div class="irCourseLevel">中级 · 134人在学</div>
+                                                <span class="irCoursePrise">￥288.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="irCourseList">
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-17.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">基于Storm构建实时热力分布项目实战</div>
+                                                <div class="irCourseLevel">中级 · 10人在学</div>
+                                                <span class="irCoursePrise">￥388.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-18.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">Spring Boot企业微信点餐系统</div>
+                                                <div class="irCourseLevel">中级 · 1379人在学</div>
+                                                <span class="irCoursePrise">￥348.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-19.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">Java秒杀系统方案优化 高性能高并发实战</div>
+                                                <div class="irCourseLevel">中级 · 134人在学</div>
+                                                <span class="irCoursePrise">￥288.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="irSlideDot">
+                                <span class="irSlideDotActive"></span><span></span>
+                            </div>
+                        </div>
+            
+                        <!-- --------------------------irActivityAd-------------------------- -->
+                        <div class="irActivityAd">
+                            <a href="javascript:;"><img src="img/indexRecommend-20.jpg"/></a>
+                        </div>
+                    </div>
+                    
+                    <!-- ---------------------------技能提升部分-------------------------- -->
+                    <div class="indexRecommendPart irNewCourse">
+                        <div class="indexRecommendHead">
+                            <h3 class="indexRecommendTitle irSkillUp">技能提升</h3>
+                            <a href="indexFreeCourse.html" class="indexRecommendMore"><span class="irSpecialSubject">专题</span>Java SSM最流行的框架入门精选课程</a>
+                        </div>
+                        <!-- 中间部分推荐课程 -->
+                        <div class="irCourseRecommend">
+                            <div class="irCourseRecommendUnit irCourseRecommendUnitL">
+                                <a href="javascript:;">
+                                    <h4 class="irCourseName">Java</h4>
+                                    <p class="irCourseDescribe">Java大牛 带你从0到上线开发企业级电商项目</p>
+                                    <span class="irCoursePrise">￥348.00</span>
+                                    <span class="irCourseUsers"><i class="iconfont icon-huiyuan"></i>3367</span>
+                                </a>
+                            </div>
+                            <div class="irCourseRecommendUnit irCourseRecommendUnitR">
+                                <a href="javascript:;">
+                                    <h4 class="irCourseName">Android</h4>
+                                    <p class="irCourseDescribe">BAT大咖助力 全面升级Android面试</p>
+                                    <span class="irCoursePrise">￥288.00</span>
+                                    <span class="irCourseUsers"><i class="iconfont icon-huiyuan"></i>1991</span>
+                                </a>
+                            </div>
+                            <div class="irCourseRecommendUnit irCourseRecommendUnitR">
+                                <a href="javascript:;">
+                                    <h4 class="irCourseName">Android</h4>
+                                    <p class="irCourseDescribe">BAT大咖助力 全面升级Android面试</p>
+                                    <span class="irCoursePrise">￥288.00</span>
+                                    <span class="irCourseUsers"><i class="iconfont icon-huiyuan"></i>1991</span>
+                                </a>
+                            </div>
+                            <div class="irCourseRecommendUnit irCourseRecommendUnitR">
+                                <a href="javascript:;">
+                                    <h4 class="irCourseName">Android</h4>
+                                    <p class="irCourseDescribe">BAT大咖助力 全面升级Android面试</p>
+                                    <span class="irCoursePrise">￥288.00</span>
+                                    <span class="irCourseUsers"><i class="iconfont icon-huiyuan"></i>1991</span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- 推荐课程列表 -->
+                        <div class="irCourseListSlide">
+                            <div class="irCourseListOut">
+                                <div class="irCourseList">
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-14.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">基于Storm构建实时热力分布项目实战</div>
+                                                <div class="irCourseLevel">中级 · 10人在学</div>
+                                                <span class="irCoursePrise">￥388.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-15.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">Spring Boot企业微信点餐系统</div>
+                                                <div class="irCourseLevel">中级 · 1379人在学</div>
+                                                <span class="irCoursePrise">￥348.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-16.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">Java秒杀系统方案优化 高性能高并发实战</div>
+                                                <div class="irCourseLevel">中级 · 134人在学</div>
+                                                <span class="irCoursePrise">￥288.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="irCourseList">
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-17.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">基于Storm构建实时热力分布项目实战</div>
+                                                <div class="irCourseLevel">中级 · 10人在学</div>
+                                                <span class="irCoursePrise">￥388.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-18.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">Spring Boot企业微信点餐系统</div>
+                                                <div class="irCourseLevel">中级 · 1379人在学</div>
+                                                <span class="irCoursePrise">￥348.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-19.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">Java秒杀系统方案优化 高性能高并发实战</div>
+                                                <div class="irCourseLevel">中级 · 134人在学</div>
+                                                <span class="irCoursePrise">￥288.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="irSlideDot">
+                                <span class="irSlideDotActive"></span><span></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- ---------------------------前沿技术部分-------------------------- -->
+                    <div class="indexRecommendPart irNewCourse">
+                        <div class="indexRecommendHead">
+                            <h3 class="indexRecommendTitle irFrontSkill">前沿技术</h3>
+                            <a href="indexFreeCourse.html" class="indexRecommendMore"><span class="irSpecialSubject">专题</span>Node.js系统学习与进阶修炼之路</a>
+                        </div>
+                        <!-- 中间部分推荐课程 -->
+                        <div class="irCourseRecommend">
+                            <div class="irCourseRecommendUnit irCourseRecommendUnitL">
+                                <a href="javascript:;">
+                                    <h4 class="irCourseName">Java</h4>
+                                    <p class="irCourseDescribe">Java大牛 带你从0到上线开发企业级电商项目</p>
+                                    <span class="irCoursePrise">￥348.00</span>
+                                    <span class="irCourseUsers"><i class="iconfont icon-huiyuan"></i>3367</span>
+                                </a>
+                            </div>
+                            <div class="irCourseRecommendUnit irCourseRecommendUnitR">
+                                <a href="javascript:;">
+                                    <h4 class="irCourseName">Android</h4>
+                                    <p class="irCourseDescribe">BAT大咖助力 全面升级Android面试</p>
+                                    <span class="irCoursePrise">￥288.00</span>
+                                    <span class="irCourseUsers"><i class="iconfont icon-huiyuan"></i>1991</span>
+                                </a>
+                            </div>
+                            <div class="irCourseRecommendUnit irCourseRecommendUnitR">
+                                <a href="javascript:;">
+                                    <h4 class="irCourseName">Android</h4>
+                                    <p class="irCourseDescribe">BAT大咖助力 全面升级Android面试</p>
+                                    <span class="irCoursePrise">￥288.00</span>
+                                    <span class="irCourseUsers"><i class="iconfont icon-huiyuan"></i>1991</span>
+                                </a>
+                            </div>
+                            <div class="irCourseRecommendUnit irCourseRecommendUnitR">
+                                <a href="javascript:;">
+                                    <h4 class="irCourseName">Android</h4>
+                                    <p class="irCourseDescribe">BAT大咖助力 全面升级Android面试</p>
+                                    <span class="irCoursePrise">￥288.00</span>
+                                    <span class="irCourseUsers"><i class="iconfont icon-huiyuan"></i>1991</span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- 推荐课程列表 -->
+                        <div class="irCourseListSlide">
+                            <div class="irCourseListOut">
+                                <div class="irCourseList">
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-14.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">基于Storm构建实时热力分布项目实战</div>
+                                                <div class="irCourseLevel">中级 · 10人在学</div>
+                                                <span class="irCoursePrise">￥388.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-15.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">Spring Boot企业微信点餐系统</div>
+                                                <div class="irCourseLevel">中级 · 1379人在学</div>
+                                                <span class="irCoursePrise">￥348.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-16.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">Java秒杀系统方案优化 高性能高并发实战</div>
+                                                <div class="irCourseLevel">中级 · 134人在学</div>
+                                                <span class="irCoursePrise">￥288.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="irCourseList">
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-17.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">基于Storm构建实时热力分布项目实战</div>
+                                                <div class="irCourseLevel">中级 · 10人在学</div>
+                                                <span class="irCoursePrise">￥388.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-18.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">Spring Boot企业微信点餐系统</div>
+                                                <div class="irCourseLevel">中级 · 1379人在学</div>
+                                                <span class="irCoursePrise">￥348.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-19.jpg" class="irCourseImg"/>
+                                            <div class="irCourseInfo">
+                                                <div class="irCourseInfoTitle">Java秒杀系统方案优化 高性能高并发实战</div>
+                                                <div class="irCourseLevel">中级 · 134人在学</div>
+                                                <span class="irCoursePrise">￥288.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="irSlideDot">
+                                <span class="irSlideDotActive"></span><span></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- ----------------------热门话题、热门手记部分---------------------- -->
+                    <div class="indexRecommendPart">
+                        <div class="indexRecommendHead">
+                            <h3 class="indexRecommendTitle irHotTopic">热门话题</h3>
+                            <a href="javascript:;" class="indexRecommendMore">更多</a>
+                        </div>
+                        <div class="irHotTopicColOne">
+                            <a href="javascript:;">
+                                <p>
+                                    对于现代前端必备技能Node.js，有什么想说的吗
+                                    <span>【花式填坑】第21期</span>    
+                                </p>
+                                <img src="img/indexRecommend-21.jpg"/>
+                            </a>
+                        </div>
+                        <div class="irHotTopicColTwo">
+                            <a href="javascript:;">
+                                <p>
+                                    是时候说说 #挨踢狗们の国庆假期#了	            
+                                    <span>【挨踢狗吐槽大会】</span>    
+                                </p>                    
+                            </a>
+                            <i></i>
+                            <a href="javascript:;">
+                                <p>
+                                    与Google大佬聊聊“成功猿（媛）”的标配？
+                                    <span>【花式填坑】第20期</span>    
+                                </p>                    
+                            </a>
+                        </div>           
+                        <div class="indexRecommendHead">
+                            <h3 class="indexRecommendTitle irHotNote">热门手记</h3>
+                            <a href="javascript:;" class="indexRecommendMore">更多</a>
+                        </div> 
+                        <div class="irHotNoteColThree">
+                            <div class="irHotNoteColLeft">
+                                <a href="javascript:;">
+                                    <p>
+                                        WebVR开发教程——深度剖析
+                                        <span>457浏览/5推荐</span>    
+                                    </p>   
+                                    <img src="img/indexRecommend-21.jpg"/>                 
+                                </a>                    
+                            </div>
+                            <div class="irHotNoteColRight">
+                                <a href="javascript:;">
+                                    <p>
+                                        教你用github page搭建一个自己的个人化博客网站
+                                        <span>169浏览/4推荐</span>    
+                                    </p>                
+                                </a> 
+                                <i></i>
+                                <a href="javascript:;">
+                                    <p>
+                                        Ubuntu16.04下Nginx+uwsgi部署Django项目
+                                        <span>719浏览/5推荐</span>    
+                                    </p>                
+                                </a>                   
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- ---------------------------精英讲师部分-------------------------- -->
+                    <div class="indexRecommendPart irNewCourse irTeacher">
+                        <div class="indexRecommendHead">
+                            <h3 class="indexRecommendTitle">精英讲师</h3>
+                        </div>
+                        <!-- 讲师列表 -->
+                        <div class="irCourseListSlide irTeacherListSlide">
+                            <div class="irCourseListOut irTeacherListOut">
+                                <div class="irCourseList">
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-14.jpg" class="irCourseImg"/>
+                                            <p>
+                                                Joshua_1919
+                                                <span>JAVA开发工程师</span>    
+                                            </p>                            
+                                        </a>
+                                    </div>
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-15.jpg" class="irCourseImg"/>
+                                            <p>
+                                                liuyubobobo
+                                                <span>全栈工程师</span>    
+                                            </p>
+                                        </a>
+                                    </div>
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-16.jpg" class="irCourseImg"/>
+                                            <p>
+                                                瓦力老师
+                                                <span>JAVA开发工程师</span>    
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="irCourseList">
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-17.jpg" class="irCourseImg"/>
+                                            <p>
+                                                雷宇_
+                                                <span>全栈工程师</span>    
+                                            </p>
+                                        </a>
+                                    </div>
+                                    <div class="irCourseListUnit">
+                                        <a href="javascript:;">
+                                            <img src="img/indexRecommend-18.jpg" class="irCourseImg"/>
+                                            <p>
+                                                天哥在奔跑
+                                                <span>移动开发工程师</span>    
+                                            </p>
+                                        </a>
+                                    </div>
+                                    <div class="irCourseListUnit">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="irSlideDot">
+                                <span class="irSlideDotActive"></span><span></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- ---------------------------猜你喜欢部分-------------------------- -->
+                    <div class="indexRecommendPart irNewCourse irTeacher">
+                        <div class="indexRecommendHead">
+                            <h3 class="indexRecommendTitle irYourLike">猜你喜欢</h3>
+                        </div>
+                        <!-- 猜你喜欢课程列表 -->
+                        <div class="irCourseList">
+                            <div class="irCourseListUnit">
+                                <a href="javascript:;">
+                                    <img src="img/indexRecommend-09.jpg" class="irCourseImg"/>
+                                    <div class="irCourseInfo">
+                                        <div class="irCourseInfoTitle">基于Storm构建实时热力分布项目实战</div>
+                                        <div class="irCourseLevel">中级 · 10人在学</div>
+                                        <span class="irCoursePrise">￥388.00</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="irCourseListUnit">
+                                <a href="javascript:;">
+                                    <img src="img/indexRecommend-10.jpg" class="irCourseImg"/>
+                                    <div class="irCourseInfo">
+                                        <div class="irCourseInfoTitle">Spring Boot企业微信点餐系统</div>
+                                        <div class="irCourseLevel">中级 · 1379人在学</div>
+                                        <span class="irCoursePrise">￥348.00</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="irCourseListUnit">
+                                <a href="javascript:;">
+                                    <img src="img/indexRecommend-11.jpg" class="irCourseImg"/>
+                                    <div class="irCourseInfo">
+                                        <div class="irCourseInfoTitle">Java秒杀系统方案优化 高性能高并发实战</div>
+                                        <div class="irCourseLevel">中级 · 134人在学</div>
+                                        <span class="irCoursePrise">￥288.00</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="irCourseListUnit">
+                                <a href="javascript:;">
+                                    <img src="img/indexRecommend-14.jpg" class="irCourseImg"/>
+                                    <div class="irCourseInfo">
+                                        <div class="irCourseInfoTitle">基于Storm构建实时热力分布项目实战</div>
+                                        <div class="irCourseLevel">中级 · 10人在学</div>
+                                        <span class="irCoursePrise">￥388.00</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="irCourseListUnit">
+                                <a href="javascript:;">
+                                    <img src="img/indexRecommend-15.jpg" class="irCourseImg"/>
+                                    <div class="irCourseInfo">
+                                        <div class="irCourseInfoTitle">Spring Boot企业微信点餐系统</div>
+                                        <div class="irCourseLevel">中级 · 1379人在学</div>
+                                        <span class="irCoursePrise">￥348.00</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="irCourseListUnit">
+                                <a href="javascript:;">
+                                    <img src="img/indexRecommend-16.jpg" class="irCourseImg"/>
+                                    <div class="irCourseInfo">
+                                        <div class="irCourseInfoTitle">Java秒杀系统方案优化 高性能高并发实战</div>
+                                        <div class="irCourseLevel">中级 · 134人在学</div>
+                                        <span class="irCoursePrise">￥288.00</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="irCourseListUnit">
+                                <a href="javascript:;">
+                                    <img src="img/indexRecommend-17.jpg" class="irCourseImg"/>
+                                    <div class="irCourseInfo">
+                                        <div class="irCourseInfoTitle">基于Storm构建实时热力分布项目实战</div>
+                                        <div class="irCourseLevel">中级 · 10人在学</div>
+                                        <span class="irCoursePrise">￥388.00</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="irCourseListUnit">
+                                <a href="javascript:;">
+                                    <img src="img/indexRecommend-18.jpg" class="irCourseImg"/>
+                                    <div class="irCourseInfo">
+                                        <div class="irCourseInfoTitle">Spring Boot企业微信点餐系统</div>
+                                        <div class="irCourseLevel">中级 · 1379人在学</div>
+                                        <span class="irCoursePrise">￥348.00</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="irCourseListUnit">
+                                <a href="javascript:;">
+                                    <img src="img/indexRecommend-19.jpg" class="irCourseImg"/>
+                                    <div class="irCourseInfo">
+                                        <div class="irCourseInfoTitle">Java秒杀系统方案优化 高性能高并发实战</div>
+                                        <div class="irCourseLevel">中级 · 134人在学</div>
+                                        <span class="irCoursePrise">￥288.00</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="irCourseListUnit">
+                                <a href="javascript:;">
+                                    <img src="img/indexRecommend-14.jpg" class="irCourseImg"/>
+                                    <div class="irCourseInfo">
+                                        <div class="irCourseInfoTitle">基于Storm构建实时热力分布项目实战</div>
+                                        <div class="irCourseLevel">中级 · 10人在学</div>
+                                        <span class="irCoursePrise">￥388.00</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="irCourseListUnit">
+                                <a href="javascript:;">
+                                    <img src="img/indexRecommend-15.jpg" class="irCourseImg"/>
+                                    <div class="irCourseInfo">
+                                        <div class="irCourseInfoTitle">Spring Boot企业微信点餐系统</div>
+                                        <div class="irCourseLevel">中级 · 1379人在学</div>
+                                        <span class="irCoursePrise">￥348.00</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="irCourseListUnit">
+                                <a href="javascript:;">
+                                    <img src="img/indexRecommend-16.jpg" class="irCourseImg"/>
+                                    <div class="irCourseInfo">
+                                        <div class="irCourseInfoTitle">Java秒杀系统方案优化 高性能高并发实战</div>
+                                        <div class="irCourseLevel">中级 · 134人在学</div>
+                                        <span class="irCoursePrise">￥288.00</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="irCourseListUnit">
+                                <a href="javascript:;">
+                                    <img src="img/indexRecommend-17.jpg" class="irCourseImg"/>
+                                    <div class="irCourseInfo">
+                                        <div class="irCourseInfoTitle">基于Storm构建实时热力分布项目实战</div>
+                                        <div class="irCourseLevel">中级 · 10人在学</div>
+                                        <span class="irCoursePrise">￥388.00</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="irCourseListUnit">
+                                <a href="javascript:;">
+                                    <img src="img/indexRecommend-18.jpg" class="irCourseImg"/>
+                                    <div class="irCourseInfo">
+                                        <div class="irCourseInfoTitle">Spring Boot企业微信点餐系统</div>
+                                        <div class="irCourseLevel">中级 · 1379人在学</div>
+                                        <span class="irCoursePrise">￥348.00</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="irCourseListUnit">
+                                <a href="javascript:;">
+                                    <img src="img/indexRecommend-19.jpg" class="irCourseImg"/>
+                                    <div class="irCourseInfo">
+                                        <div class="irCourseInfoTitle">Java秒杀系统方案优化 高性能高并发实战</div>
+                                        <div class="irCourseLevel">中级 · 134人在学</div>
+                                        <span class="irCoursePrise">￥288.00</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="ifcContent">
+                        <ul class="ifcNav">
+                            <li>
+                                <img src="img/indexFreeCourse-01.png" alt="">
+                                <p>前端开发</p>
+                            </li>
+                            <li>
+                                <img src="img/indexFreeCourse-02.png" alt="">
+                                <p>后端开发</p>
+                            </li>
+                            <li>
+                                <img src="img/indexFreeCourse-03.png" alt="">
+                                <p>移动开发</p>
+                            </li>
+                            <li>
+                                <img src="img/indexFreeCourse-04.png" alt="">
+                                <p>数据库</p>
+                            </li>
+                            <li>
+                                <img src="img/indexFreeCourse-05.png" alt="">
+                                <p>人工智能</p>
+                            </li>
+                            <li>
+                                <img src="img/indexFreeCourse-06.png" alt="">
+                                <p>云计算&大数据</p>
+                            </li>
+                            <li>
+                                <img src="img/indexFreeCourse-07.png" alt="">
+                                <p>运维&测试</p>
+                            </li>
+                            <li>
+                                <img src="img/indexFreeCourse-08.png" alt="">
+                                <p>UI设计</p>
+                            </li>
+                        </ul>
+                        <div class="ifcContentList">
+                            <div class="ifcContentInner ifcContentInner1">
+                                <img src="img/indexFreeCourse-09.jpg" alt="">
+                                <div class="ifcContentInnerRight">
+                                    <h1>css定位position</h1>
+                                    <p>
+                                        <b>已学0%</b>
+                                        <span><i>初级</i>·<em>280人在学</em></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ifcContentInner">
+                                <img src="img/indexFreeCourse-10.jpg" alt="">
+                                <div class="ifcContentInnerRight">
+                                    <h1>Android多图上传技术实战之http普通请求封装</h1>
+                                    <p>
+                                        <b>已学0%</b>
+                                        <span><i>中级</i>·<em>260人在学</em></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ifcContentInner">
+                                <img src="img/indexFreeCourse-11.jpg" alt="">
+                                <div class="ifcContentInnerRight">
+                                    <h1>Android-NDK进阶</h1>
+                                    <p>
+                                        <span><i>中级</i>·<em>812人在学</em></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ifcContentInner">
+                                <img src="img/indexFreeCourse-12.jpg" alt="">
+                                <div class="ifcContentInnerRight">
+                                    <h1>Go语言开发微信公众号</h1>
+                                    <p>
+                                        <span><i>中级</i>·<em>2423人在学</em></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ifcContentInner">
+                                <img src="img/indexFreeCourse-13.jpg" alt="">
+                                <div class="ifcContentInnerRight">
+                                    <h1>神经网络简介</h1>
+                                    <p>
+                                        <b>已学0%</b>
+                                        <span><i>初级</i>·<em>3812人在学</em></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ifcContentInner">
+                                <img src="img/indexFreeCourse-14.jpg" alt="">
+                                <div class="ifcContentInnerRight">
+                                    <h1>Hadoop基础及演练</h1>
+                                    <p>
+                                        <span><i>初级</i>·<em>3812人在学</em></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ifcContentInner">
+                                <img src="img/indexFreeCourse-15.jpg" alt="">
+                                <div class="ifcContentInnerRight">
+                                    <h1>2017AWS技术峰会--UG用户社区</h1>
+                                    <p>
+                                        <span><i>中级</i>·<em>485人在学</em></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ifcContentInner">
+                                <img src="img/indexFreeCourse-16.jpg" alt="">
+                                <div class="ifcContentInnerRight">
+                                    <h1>搭建并行处理管道，感受GO语言魅力</h1>
+                                    <p>
+                                        <span><i>初级</i>·<em>1829人在学</em></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ifcContentInner">
+                                <img src="img/indexFreeCourse-17.jpg" alt="">
+                                <div class="ifcContentInnerRight">
+                                    <h1>UI动效入门知识储备</h1>
+                                    <p>
+                                        <span><i>初级</i>·<em>3467人在学</em></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ifcContentInner">
+                                <img src="img/indexFreeCourse-18.jpg" alt="">
+                                <div class="ifcContentInnerRight">
+                                    <h1>InteelliJIDEA神器使用技巧</h1>
+                                    <p>
+                                        <span><i>初级</i>·<em>13567人在学</em></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ifcContentInner">
+                                <img src="img/indexFreeCourse-19.jpg" alt="">
+                                <div class="ifcContentInnerRight">
+                                    <h1>2017AWS技术峰会--IOT技术专场</h1>
+                                    <p>
+                                        <span><i>高级</i>·<em>794人在学</em></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ifcContentInner">
+                                <img src="img/indexFreeCourse-20.jpg" alt="">
+                                <div class="ifcContentInnerRight">
+                                    <h1>Android互动直播APP开发入门</h1>
+                                    <p>
+                                        <span><i>初级</i>·<em>5497人在学</em></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ifcContentInner">
+                                <img src="img/indexFreeCourse-21.jpg" alt="">
+                                <div class="ifcContentInnerRight">
+                                    <h1>前端内容的自动化构建</h1>
+                                    <p>
+                                        <span><i>初级</i>·<em>6265人在学</em></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ifcContentInner">
+                                <img src="img/indexFreeCourse-22.jpg" alt="">
+                                <div class="ifcContentInnerRight">
+                                    <h1>Android事件分发库的使用</h1>
+                                    <p>
+                                        <span><i>中级</i>·<em>1520人在学</em></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ifcContentInner">
+                                <img src="img/indexFreeCourse-23.jpg" alt="">
+                                <div class="ifcContentInnerRight">
+                                    <h1>2017AWS技术峰会--深度实践专场</h1>
+                                    <p>
+                                        <span><i>中级</i>·<em>936人在学</em></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ifcContentInner">
+                                <img src="img/indexFreeCourse-24.jpg" alt="">
+                                <div class="ifcContentInnerRight">
+                                    <h1>Elastic Stack专场</h1>
+                                    <p>
+                                        <span><i>中级</i>·<em>4627人在学</em></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ifcContentInner">
+                                <img src="img/indexFreeCourse-25.jpg" alt="">
+                                <div class="ifcContentInnerRight">
+                                    <h1>Bitmap高效缓存</h1>
+                                    <p>
+                                        <span><i>初级</i>·<em>1935人在学</em></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ifcContentInner">
+                                <img src="img/indexFreeCourse-26.jpg" alt="">
+                                <div class="ifcContentInnerRight">
+                                    <h1>Android节目直播案例开发</h1>
+                                    <p>
+                                        <span><i>初级</i>·<em>4581人在学</em></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ifcContentInner">
+                                <img src="img/indexFreeCourse-27.jpg" alt="">
+                                <div class="ifcContentInnerRight">
+                                    <h1>Android引导页实现的四种方式</h1>
+                                    <p>
+                                        <span><i>中级</i>·<em>3434人在学</em></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ifcContentInner">
+                                <img src="img/indexFreeCourse-28.jpg" alt="">
+                                <div class="ifcContentInnerRight">
+                                    <h1>CDN与智能DNS原理和应用</h1>
+                                    <p>
+                                        <span><i>高级</i>·<em>6093人在学</em></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------indexFooter-------------------------- -->
+    <div class="commonFooter">
+        <a href="javascript:;">首页</a>
+        <a href="javascript:;">发现</a>
+        <a href="javascript:;">下载</a>
+        <a href="person.html">我的</a>
+    </div>
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>

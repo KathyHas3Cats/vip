@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width initial-scale=0.5, maximum-scale=0.5, minimum-scale=0.5">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>慕课网</title>
+<link rel="stylesheet" href="css/login.css"/>
+<script src="https://cdn.bootcss.com/jquery/1.8.3/jquery.js"></script>
+<!-- <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script> -->
+</head>
+<body>
+    <!-- ----------------------------弹出提示信息------------------------------ -->
+    <div class="info"></div>
+
+    <!-- -------------------------------header-------------------------------- -->
+    <!-- 顶部关闭按钮 -->
+    <div class="loginHeader">
+        <span class="loginClose"></span>
+    </div>
+    <!-- title -->
+    <h1 class="loginTitle">登录</h1>
+    <!-- --------------------------------输入框------------------------------ -->
+    <form action="login" method="post" name="login" class="loginForm">
+        <div class="username loginInput">
+            <input type="text" name="username" class="inUsername" autocomplete="off" placeholder="手机号/邮箱"/>
+            <span class="loginDelete loginIconBtn"></span>
+        </div>
+        <div class="password loginInput">
+            <input type="password" name="password" class="inPassword" placeholder="密码"/>
+            <span class="loginShowPsw loginIconBtn"></span>
+        </div>
+        <input type="submit" value="登录" class="submit loginSubmit" data-role="none"/>
+    </form>
+    <!-- 忘记密码 -->
+    <div class="loginAlink">
+        <a href="javascript:;" class="loginForgetPsw loginAlinkBtn">忘记密码</a>
+    </div>
+    <!-- ----------------------------底部文字链接---------------------------- -->
+    <div class="loginAlink loginAlinkBottom">
+        <!-- 注册 -->
+        <a href="register.html" class="loginToReg loginAlinkBtn">注册</a>
+        <!-- 社交账号登录 -->
+        <a href="javascript:;" class="loginGamWay loginAlinkBtn">社交账号登录</a>
+        <ul class="loginGamWayList">
+            <li><a href="javascript:;" class="loginByWeChat"></a></li>
+            <li><a href="javascript:;" class="loginByQQ"></a></li>
+            <li><a href="javascript:;" class="loginBySina"></a></li>
+        </ul>
+    </div>
+
+    <!-- ----------------------------找回密码界面---------------------------- -->
+    <div class="loginGetBackPsw">
+        <!-- 顶部返回按钮 -->
+        <div class="lgbpHeader"><a class="loginBack"></a>找回密码</div>
+        <form action="javascript:;" name="getbackpsw" class="getBackPswForm">
+            <input type="text" class="lgbpUsername" placeholder="输入邮箱或者手机号" autocomplete="off" autofocus/>
+            <span class="loginDelete loginIconBtn"></span>
+            <input type="submit" value="下一步" class="lgbpSubmit"/>
+        </form>
+    </div>
+
+
+    <script src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+body, div, p, ul, ol, li, dl, dt, dd, form, table, tr, td, th, caption, hr, h1, h2, h3, h4, h5, h6, img, input {
+  margin: 0;
+  padding: 0; }
+
+input {
+  outline: none; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+html {
+  font-size: 26.67vw;
+  height: 100%; }
+
+body {
+  background: #f3f5f7;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: '-apple-system','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Helvetica Neue',Helvetica,Arial,sans-serif; }

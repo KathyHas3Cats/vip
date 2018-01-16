@@ -1,0 +1,94 @@
+body, div, p, ul, ol, li, dl, dt, dd, form, table, tr, td, th, caption, hr, h1, h2, h3, h4, h5, h6, img, input {
+  margin: 0;
+  padding: 0; }
+
+input {
+  outline: none; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+html {
+  font-size: 13.33vw;
+  height: 100%; }
+
+body {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: '-apple-system','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Helvetica Neue',Helvetica,Arial,sans-serif; }
+
+.commonHeader {
+  height: 0.92rem;
+  background: white;
+  box-shadow: 0 2px 2px #ddd;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+  position: relative;
+  z-index: 1; }
+  .commonHeader li {
+    display: block; }
+    .commonHeader li a {
+      font-size: 0.32rem;
+      color: #71767c;
+      line-height: 0.92rem;
+      display: block; }
+      .commonHeader li a i {
+        font-size: 0.4rem;
+        font-weight: 600;
+        color: black; }
+  .commonHeader .commonHeaderOne {
+    margin-left: 0.04rem; }
+  .commonHeader span {
+    width: 0.34rem;
+    height: 0.04rem;
+    background: #eb0000;
+    display: block;
+    position: absolute;
+    left: 0.4rem;
+    bottom: 0.14rem; }
+
+.commonContent {
+  overflow-y: auto;
+  -webkit-flex: 1;
+  flex: 1;
+  width: 100%;
+  overflow-x: hidden; }
+
+.commonFooter {
+  height: 1.04rem;
+  background: white;
+  border-top: 0.04rem solid #ddd;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around; }
+  .commonFooter a {
+    background: url("../img/common-01.png") center 0.16rem no-repeat;
+    background-size: 0.48rem;
+    height: 0.4rem;
+    flex: 1;
+    -webkit-flex: 1;
+    display: block;
+    font-size: 0.2rem;
+    color: black;
+    text-align: center;
+    padding-top: 0.64rem; }
+  .commonFooter a:nth-child(2) {
+    background: url("../img/common-03.png") center 0.16rem no-repeat;
+    background-size: 0.48rem; }
+  .commonFooter a:nth-child(3) {
+    background: url("../img/common-05.png") center 0.16rem no-repeat;
+    background-size: 0.48rem; }
+  .commonFooter a:nth-child(4) {
+    background: url("../img/common-07.png") center 0.16rem no-repeat;
+    background-size: 0.48rem; }

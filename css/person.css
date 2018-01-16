@@ -1,0 +1,286 @@
+.personContent {
+  overflow-y: auto;
+  flex: 1;
+  -webkit-flex: 1; }
+
+.personHout {
+  overflow: hidden;
+  background: white; }
+  .personHout .personHeader {
+    float: right;
+    height: 0.55rem;
+    width: 1.38rem;
+    overflow: hidden; }
+    .personHout .personHeader a {
+      float: left;
+      margin-top: 0.2rem; }
+      .personHout .personHeader a img {
+        width: 0.2rem;
+        display: block; }
+    .personHout .personHeader a:nth-child(2) {
+      margin-left: 0.28rem; }
+    .personHout .personHeader a:nth-child(3) {
+      margin-left: 0.28rem; }
+
+.personSecone {
+  padding-bottom: 0.2rem;
+  background: white;
+  overflow: hidden; }
+  .personSecone .pOLeft {
+    margin-left: 0.24rem;
+    float: left;
+    margin-right: 0.16rem;
+    height: 0.64rem; }
+    .personSecone .pOLeft img {
+      height: 0.64rem;
+      width: 0.64rem;
+      display: block;
+      border-radius: 50%; }
+  .personSecone .pORight {
+    float: left; 
+    margin-top:0.2rem; }
+    .toLogin{
+      font-size:0.14rem; }
+    .personSecone .pORight h3 {
+      font-size: 0.18rem;
+      background: url("../img/person-05.png") right center no-repeat;
+      background-size: 0.15rem;
+      padding-right: 0.2rem;
+      line-height: 0.34rem; }
+    .personSecone .pORight p {
+      font-size: 0.10rem;
+      line-height: 0.3rem;
+      color: #555; }
+      .personSecone .pORight p i {
+        margin-left: 0.10rem;
+        font-style: normal; }
+        .personSecone .pORight p i span {
+          color: black;
+          font-weight: 600; }
+      .personSecone .pORight p span {
+        font-weight: 600;
+        color: black; }
+  .personSecone .pOFoot {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+    width: 100%;
+    line-height: 0.3rem; }
+    .personSecone .pOFoot p {
+      font-size: 0.14rem;
+      flex: 1;
+      text-align: center; }
+      .personSecone .pOFoot p i {
+        font-style: normal;
+        font-weight: 600; }
+      .personSecone .pOFoot p span {
+        width: 0.02rem;
+        height: 0.1rem;
+        background: #ccc;
+        float: right;
+        margin-top: 0.1rem; }
+
+.presonSectwo {
+  border-top: 1px solid #ddd;
+  background: white;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+  height: 0.95rem; }
+  .presonSectwo li {
+    -webkit-flex: 1;
+    flex: 1; }
+    .presonSectwo li a {
+      font-size: 0.12rem;
+      color: #222;
+      display: block;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      text-align: center;
+      line-height: 0.38rem; }
+      .presonSectwo li a img {
+        display: block;
+        width: 0.24rem;
+        margin: 0 auto;
+        margin-top: 0.2rem; }
+
+.presonSecthree {
+  margin-top: 0.08rem;
+  line-height: 0.6rem;
+  margin-bottom: 0.15rem;
+  background: white; }
+  .presonSecthree li {
+    overflow: hidden;
+    display: flex; }
+    .presonSecthree li div {
+      width: 0.62rem; }
+      .presonSecthree li div img {
+        width: 0.2rem;
+        display: block;
+        margin: 0.22rem; }
+    .presonSecthree li p {
+      flex: 1;
+      border-bottom: 1px solid #ddd;
+      font-size: 0.14rem;
+      color: #222; }
+  .presonSecthree li:last-child p {
+    border: none; }
+
+.personFooter {
+  height: 0.52rem;
+  background: white;
+  border-top: 2px solid #ddd;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around; }
+  .personFooter a {
+    background: url("../img/common-01.png") center 0.08rem no-repeat;
+    background-size: 0.24rem;
+    height: 0.2rem;
+    flex: 1;
+    -webkit-flex: 1;
+    display: block;
+    font-size: 0.1rem;
+    color: black;
+    text-align: center;
+    padding-top: 0.32rem; }
+  .personFooter a:nth-child(2) {
+    background: url("../img/common-03.png") center 0.08rem no-repeat;
+    background-size: 0.24rem; }
+  .personFooter a:nth-child(3) {
+    background: url("../img/common-05.png") center 0.08rem no-repeat;
+    background-size: 0.24rem; }
+  .personFooter .personFooterFour {
+    color: red;
+    background: url("../img/common-08.png") center 0.08rem no-repeat;
+    background-size: 0.24rem;
+    font-weight: 600; }
+
+.personFog {
+  position: fixed;
+  background: black;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  display: none; }
+  .personFog img {
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    display: block;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    z-index: 2; }
+
+.personNewPage {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  z-index: 2;
+  left: 3.75rem;
+  top: 0;
+  overflow: auto; }
+  .personNewPage .personNewPageOne {
+    background: url("../img/paidC-01.jpg") center center no-repeat;
+    background-size: cover;
+    height: 2.75rem;
+    overflow: hidden; }
+    .personNewPage .personNewPageOne .personNewPageOneA {
+      border-radius: 50%;
+      width: 0.64rem;
+      height: 0.64rem;
+      margin: 0 auto;
+      margin-top: 0.4rem; }
+      .personNewPage .personNewPageOne .personNewPageOneA img {
+        width: 0.64rem;
+        height: 0.64rem;
+        display: block;
+        border-radius: 50%; }
+    .personNewPage .personNewPageOne .personNewPageOneB {
+      position: absolute;
+      height: 0.2rem;
+      width: 0.2rem;
+      left: 0.2rem;
+      top: 0.2rem; }
+      .personNewPage .personNewPageOne .personNewPageOneB i {
+        display: block;
+        color: #fff;
+        font-size: 0.16rem; }
+    .personNewPage .personNewPageOne .personNewPageOneC {
+      display: flex;
+      display: -webkit-flex;
+      justify-content: space-around;
+      -webkit-justify-content: space-around; }
+      .personNewPage .personNewPageOne .personNewPageOneC a {
+        display: block;
+        font-size: 0.14rem;
+        color: #eee;
+        flex: 1;
+        border-right: 1px solid #ddd;
+        text-align: center;
+        margin-top: 1rem; }
+      .personNewPage .personNewPageOne .personNewPageOneC a:last-child {
+        border: none; }
+    .personNewPage .personNewPageOne .personNewPageOneD {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 0.7rem; }
+      .personNewPage .personNewPageOne .personNewPageOneD img {
+        width: 0.2rem; }
+    .personNewPage .personNewPageOne .personNewPageOneE {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 1.95rem; }
+      .personNewPage .personNewPageOne .personNewPageOneE a {
+        width: 0.06rem;
+        height: 0.06rem;
+        background: #eee;
+        border-radius: 50%;
+        float: left;
+        border: 1px solid #ddd;
+        margin: 0.01rem; }
+      .personNewPage .personNewPageOne .personNewPageOneE .personNewPageOneERight {
+        border: 1px solid #ddd;
+        background: rgba(0, 0, 0, 0); }
+    .personNewPage .personNewPageOne .personNewPageOneF {
+      text-align: center;
+      color: white;
+      font-weight: 600;
+      font-size: 0.16rem;
+      padding-top: 0.16rem; }
+  .personNewPage .personNewPageTwo img {
+    width: 3.35rem;
+    text-align: center;
+    display: block;
+    margin: 0.5rem auto; }
+
+.personNewPage2 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  left: 3.75rem;
+  top: 0; }
+  .personNewPage2 i {
+    line-height: 0.5rem;
+    padding-top: 0.1rem;
+    font-size: 0.16rem;
+    color: black;
+    text-indent: 0.2rem;
+    display: block;
+    border-bottom: 1px solid #ddd; }
+  .personNewPage2 h3 {
+    width: 0.3rem;
+    margin: 0 auto;
+    font-size: 0.3rem;
+    color: #999;
+    font-weight: 600;
+    margin-top: 30%; }
